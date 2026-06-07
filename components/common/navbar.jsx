@@ -31,9 +31,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-[1]">
+    <div className="fixed top-0 left-0 backdrop-blur-3xl right-0 z-[1]">
       {/* <AnnouncementBanner /> */}
-      <nav className="bg-bg-base/80 backdrop-blur-md border-b border-border-subtle transition-all">
+      <nav className="bg-bg-base/80 border-b border-border-subtle transition-all">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <a
             href="/"
