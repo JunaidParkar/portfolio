@@ -97,3 +97,27 @@ export let projects = [{
     role: 'Full Stack Developer'
   }
 ];
+
+export let services = [
+  {
+    id: 'web-dev',
+    title: 'Web Development',
+    description: 'Custom, high-performance web applications built with modern technologies like React, Next.js, and Node.',
+    externalUrl: 'https://example.com/services/web-dev',
+    iconType: 'code'
+  },
+  {
+    id: 'ui-design',
+    title: 'UI/UX Design',
+    description: 'User-centered design solutions focused on minimalist aesthetics and intuitive digital experiences.',
+    externalUrl: 'https://example.com/services/design',
+    iconType: 'pen'
+  },
+  {
+    id: '3d-modeling',
+    title: '3D Modeling & Rendering',
+    description: 'High-quality 3D assets, abstract environments, and product visualizations for your projects.',
+    externalUrl: 'https://example.com/services/3d',
+    iconType: 'cube'
+  }
+];

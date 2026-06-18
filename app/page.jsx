@@ -1,7 +1,8 @@
 import CursorClient from "@/components/cursor";
-import Navbar from "@/components/common/navbar";
+import Navbar from "@/components/common/HomeNavbar";
 import Hero from "@/components/home/hero";
 import Projects from "@/components/home/projects";
+import Services from "@/components/home/services";
 
 export default function Home() {
   // useEffect(() => {
@@ -24,6 +25,9 @@ export default function Home() {
         </div>
         <div className="w-full relative">
           <Projects />
+        </div>
+        <div className="w-full relative">
+          <Services />
         </div>
       </div>
 

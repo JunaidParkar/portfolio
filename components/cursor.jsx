@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import customCursor from "codereducer/cursor";
 import Dkit from "codereducer/dKit";
 
-export default function CursorClient({cursor="", magnets= []}) {
+export default function CursorClient({cursor="", magnets = []}) {
   useEffect(() => {
     if (cursor === "") return;
     let mgneticElements = [];
