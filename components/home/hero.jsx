@@ -5,7 +5,7 @@ import { Star } from "lucide-react";
 
 const Hero = () => {
 
-    let marqueeText = ["Creative coding", "·", "Electronic builds", "·", "Machine Projects"]
+    let marqueeText = ["Creative coding", "·", "Electronic builds", "·", "Machine Projects", "·"]
 
     return (
         <>

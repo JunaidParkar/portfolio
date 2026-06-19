@@ -19,14 +19,14 @@ export default function Home() {
       <CursorClient cursor="cursor-element" />
       <div id="cursor-element" className="w-62.5 h-62.5 rounded-[50%] z-[-1] fixed bg-radial from-gray-400 from-0% via-gray-600 via-40% to-gray-800 to-80% to-transparent-100% opacity-0"></div>
       <Navbar />
-      <div className="z-0 backdrop-blur-3xl min-h-dvh">
-        <div className="w-full h-dvh relative">
+      <div className="z-0 backdrop-blur-3xl min-h-dvh" id="home">
+        <div className="w-full h-dvh relative" id="hero">
           <Hero />
         </div>
-        <div className="w-full relative">
+        <div className="w-full relative" id="projects">
           <Projects />
         </div>
-        <div className="w-full relative">
+        <div className="w-full relative" id="services">
           <Services />
         </div>
       </div>

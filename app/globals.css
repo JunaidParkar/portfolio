@@ -163,6 +163,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .scrollbar-hidden::-webkit-scrollbar {
     height: 0;
     width: 0;
