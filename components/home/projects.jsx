@@ -1,4 +1,3 @@
-import { div } from 'motion/react-client';
 import React from 'react'
 import { projects } from '@/components/data'
 import { ArrowRight } from 'lucide-react';

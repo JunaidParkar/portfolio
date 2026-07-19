@@ -39,7 +39,7 @@ const Navbar = () => {
           
           <Link
             href="/"
-            className="text-xl font-bold tracking-tighter text-text-primary flex items-center gap-2"
+            className="text-xl font-bold tracking-wider text-text-primary flex items-center gap-2"
           >
             <span className="w-8 h-8 rounded-full bg-text-primary text-bg-base hidden md:flex items-center justify-center text-sm">
               J

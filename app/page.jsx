@@ -3,6 +3,9 @@ import Navbar from "@/components/common/HomeNavbar";
 import Hero from "@/components/home/hero";
 import Projects from "@/components/home/projects";
 import Services from "@/components/home/services";
+import About from "@/components/home/about";
+import Contact from "@/components/home/contact";
+import Footer from "@/components/home/footer";
 
 export default function Home() {
   // useEffect(() => {
@@ -19,7 +22,7 @@ export default function Home() {
       <CursorClient cursor="cursor-element" />
       <div id="cursor-element" className="w-62.5 h-62.5 rounded-[50%] z-[-1] fixed bg-radial from-gray-400 from-0% via-gray-600 via-40% to-gray-800 to-80% to-transparent-100% opacity-0"></div>
       <Navbar />
-      <div className="z-0 backdrop-blur-3xl min-h-dvh" id="home">
+      <div className="z-0 backdrop-blur-3xl min-h-dvh h-full" id="home">
         <div className="w-full h-dvh relative" id="hero">
           <Hero />
         </div>
@@ -28,6 +31,15 @@ export default function Home() {
         </div>
         <div className="w-full relative" id="services">
           <Services />
+        </div>
+        <div className="w-full relative" id="about">
+          <About />
+        </div>
+        <div className="w-full relative" id="contact">
+          <Contact />
+        </div>
+        <div className="w-full relative">
+          <Footer />
         </div>
       </div>
 
